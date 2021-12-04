@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import DashBoard from './Components/Dashboard';
+import Form from './Components/Form'
 
+// ROUTING NEEDS TO BE ADDED SO THAT FOR EACH USER ACTION LIKE ADD, MODIFY, LIST CAN HAVE DIFFERENT ROUTINGS
+// REDUX NEEDS TO BE ADDED TO GET THE DATA THROGHOUT THE APP
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DashBoard />
+      <Form />
     </div>
   );
 }

@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.formContainer {
+  margin-top: 20px;
+}
+.inputLabel {
+  align-items: center;
+}
+.addbtn {
+  width: 150px;
+  height: 40px;
+  border: 1px solid blue !important;
+  color: white !important;
+  background-color: blue !important;
+  margin-left: 20px !important;
+}
+.btn {
+  width: 50px;
+  height: 30px;
+  border: 1px solid blue !important;
+  color: white !important;
+  background-color: blue !important;
+  margin: 10px !important;
+}
+
+.label {
+  width: 130px;
+}
+.required::after {
+  content: " *";
+  color: red;
+}
+.errorLabel {
+  color: red;
+  text-align: left;
+}
+.radioGroups {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+.radioGroupsLabel {
+  width: 150px;
+}
+.radioButton {
+  padding: 0px 35px !important;
+}
